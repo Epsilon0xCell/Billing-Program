@@ -45,11 +45,15 @@ and an overall cost of `$24.09`.
 
 ## Input errors
 
-- Non-numeric input, or closed input (EOF), prints `Please enter a
-  number.` and exits with status 1, with no traceback.
+- Non-numeric input, the non-finite values `inf` and `nan`, or closed
+  input (EOF), prints `Please enter a number.` and exits with status
+  1, with no traceback.
 - A negative cost or tip percent prints `Please enter a number that is
   not negative.` and exits with status 1.
 - Zero is accepted for both prompts.
+
+Tests: `python3 -m unittest` covers the money functions and scripted
+runs, including the rejected `inf` and `nan` cases.
 
 ## Files
 
