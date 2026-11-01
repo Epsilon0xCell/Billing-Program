@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Orbital debris tracking room in section">
+<rect width="1200" height="260" fill="#264a7a"/>
+<g fill="#f4f7fa"><circle cx="120" cy="40" r="2"/><circle cx="420" cy="26" r="2"/><circle cx="760" cy="48" r="2"/><circle cx="1040" cy="30" r="2"/></g>
+<g stroke="#c0c8d0" stroke-width="2" fill="none" opacity="0.8">
+<path d="M-40 90 Q 600 -60 1240 80"><animate attributeName="d" dur="14s" repeatCount="indefinite" values="M-40 90 Q 600 -60 1240 80;M-40 80 Q 600 -30 1240 95;M-40 90 Q 600 -60 1240 80"/></path>
+<path d="M-40 130 Q 600 10 1240 120"><animate attributeName="d" dur="18s" repeatCount="indefinite" values="M-40 130 Q 600 10 1240 120;M-40 120 Q 600 40 1240 130;M-40 130 Q 600 10 1240 120"/></path></g>
+<g fill="#dfe5ea"><circle r="4"><animateMotion dur="11s" repeatCount="indefinite" path="M-20 128 Q 600 8 1220 118"/></circle><circle r="3"><animateMotion dur="11s" begin="-2s" repeatCount="indefinite" path="M-20 128 Q 600 8 1220 118"/></circle><circle r="3"><animateMotion dur="11s" begin="-4s" repeatCount="indefinite" path="M-20 128 Q 600 8 1220 118"/></circle></g>
+<g opacity="0.55" fill="#ffffff"><ellipse cx="0" cy="70" rx="130" ry="13"><animate attributeName="cx" dur="26s" values="-160;1360" repeatCount="indefinite"/></ellipse><ellipse cx="0" cy="96" rx="90" ry="10"><animate attributeName="cx" dur="19s" values="-120;1320" repeatCount="indefinite"/></ellipse><ellipse cx="0" cy="120" rx="60" ry="8"><animate attributeName="cx" dur="13s" values="-90;1290" repeatCount="indefinite"/></ellipse></g>
+<rect x="470" y="86" width="260" height="130" fill="#f4f7fa"/>
+<ellipse cx="600" cy="151" rx="92" ry="40" fill="none" stroke="#faa04e" stroke-width="5" transform="rotate(-18 600 151)"><animate attributeName="opacity" dur="7s" values="0.25;0.25;1;1;0.25" repeatCount="indefinite"/></ellipse>
+<circle cx="566" cy="168" r="24" fill="#264a7a"/>
+<g stroke="#7a8894" stroke-width="4"><g><rect x="330" y="120" width="16" height="52" fill="#c0c8d0"><animateTransform attributeName="transform" type="rotate" dur="5s" values="0 338 172;24 338 172;0 338 172" repeatCount="indefinite"/></rect></g><g><rect x="856" y="120" width="16" height="52" fill="#c0c8d0"><animateTransform attributeName="transform" type="rotate" dur="5s" begin="-2.5s" values="0 864 172;24 864 172;0 864 172" repeatCount="indefinite"/></rect></g></g>
+<g stroke="#b08a4a" stroke-width="10"><line x1="0" y1="238" x2="1200" y2="238"><animate attributeName="x1" dur="9s" values="0;-60;0" repeatCount="indefinite"/></line></g>
+<ellipse cx="0" cy="228" rx="52" ry="17" fill="#22262c"><animate attributeName="cx" dur="9s" values="-80;1280" repeatCount="indefinite"/></ellipse>
+</svg>
