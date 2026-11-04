@@ -1,15 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Orbital debris tracking room in section">
-<rect width="1200" height="260" fill="#264a7a"/>
-<g fill="#f4f7fa"><circle cx="120" cy="40" r="2"/><circle cx="420" cy="26" r="2"/><circle cx="760" cy="48" r="2"/><circle cx="1040" cy="30" r="2"/></g>
-<g stroke="#c0c8d0" stroke-width="2" fill="none" opacity="0.8">
-<path d="M-40 90 Q 600 -60 1240 80"><animate attributeName="d" dur="14s" repeatCount="indefinite" values="M-40 90 Q 600 -60 1240 80;M-40 80 Q 600 -30 1240 95;M-40 90 Q 600 -60 1240 80"/></path>
-<path d="M-40 130 Q 600 10 1240 120"><animate attributeName="d" dur="18s" repeatCount="indefinite" values="M-40 130 Q 600 10 1240 120;M-40 120 Q 600 40 1240 130;M-40 130 Q 600 10 1240 120"/></path></g>
-<g fill="#dfe5ea"><circle r="4"><animateMotion dur="11s" repeatCount="indefinite" path="M-20 128 Q 600 8 1220 118"/></circle><circle r="3"><animateMotion dur="11s" begin="-2s" repeatCount="indefinite" path="M-20 128 Q 600 8 1220 118"/></circle><circle r="3"><animateMotion dur="11s" begin="-4s" repeatCount="indefinite" path="M-20 128 Q 600 8 1220 118"/></circle></g>
-<g opacity="0.55" fill="#ffffff"><ellipse cx="0" cy="70" rx="130" ry="13"><animate attributeName="cx" dur="26s" values="-160;1360" repeatCount="indefinite"/></ellipse><ellipse cx="0" cy="96" rx="90" ry="10"><animate attributeName="cx" dur="19s" values="-120;1320" repeatCount="indefinite"/></ellipse><ellipse cx="0" cy="120" rx="60" ry="8"><animate attributeName="cx" dur="13s" values="-90;1290" repeatCount="indefinite"/></ellipse></g>
-<rect x="470" y="86" width="260" height="130" fill="#f4f7fa"/>
-<ellipse cx="600" cy="151" rx="92" ry="40" fill="none" stroke="#faa04e" stroke-width="5" transform="rotate(-18 600 151)"><animate attributeName="opacity" dur="7s" values="0.25;0.25;1;1;0.25" repeatCount="indefinite"/></ellipse>
-<circle cx="566" cy="168" r="24" fill="#264a7a"/>
-<g stroke="#7a8894" stroke-width="4"><g><rect x="330" y="120" width="16" height="52" fill="#c0c8d0"><animateTransform attributeName="transform" type="rotate" dur="5s" values="0 338 172;24 338 172;0 338 172" repeatCount="indefinite"/></rect></g><g><rect x="856" y="120" width="16" height="52" fill="#c0c8d0"><animateTransform attributeName="transform" type="rotate" dur="5s" begin="-2.5s" values="0 864 172;24 864 172;0 864 172" repeatCount="indefinite"/></rect></g></g>
-<g stroke="#b08a4a" stroke-width="10"><line x1="0" y1="238" x2="1200" y2="238"><animate attributeName="x1" dur="9s" values="0;-60;0" repeatCount="indefinite"/></line></g>
-<ellipse cx="0" cy="228" rx="52" ry="17" fill="#22262c"><animate attributeName="cx" dur="9s" values="-80;1280" repeatCount="indefinite"/></ellipse>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 190" role="img" aria-label="The Chalk Receipt, animated blackboard scene">
+  <rect width="800" height="190" fill="#14161a"/>
+  <rect x="8" y="8" width="784" height="174" fill="none" stroke="#f5f2ea" stroke-width="2" opacity="0.35"/>
+  <g id="receipt" stroke="#f5f2ea" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M60 42 H470 M60 42 V150 M470 42 V150 M60 150 L78 160 L96 150 L114 160 L132 150 L150 160 L168 150 L186 160 L204 150 L222 160 L240 150 L258 160 L276 150 L294 160 L312 150 L330 160 L348 150 L366 160 L384 150 L402 160 L420 150 L438 160 L470 150">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M84 70 H330 M84 94 H290 M84 118 H350" opacity="0.8"/>
+  </g>
+  <g font-family="monospace" font-size="17" fill="#f5f2ea">
+    <text x="84" y="66">ITEM ........ 100.00</text>
+    <text x="520" y="66">TAX</text><text x="520" y="118">TIP</text>
+  </g>
+  <g fill="none" stroke="#f5f2ea" stroke-width="3">
+    <rect x="512" y="76" width="92" height="30"/><rect x="512" y="128" width="92" height="30"/>
+  </g>
+  <g font-family="monospace" font-size="16" fill="#f5f2ea"><text x="528" y="97">5.50</text><text x="524" y="149">20.00</text></g>
+  <path d="M612 92 L648 92" stroke="#f5f2ea" stroke-width="3"/>
+  <g id="total">
+    <ellipse cx="690" cy="112" rx="72" ry="42" fill="none" stroke="#e5484d" stroke-width="5">
+      <animate attributeName="rx" values="72;76;72" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="42;45;42" dur="3.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="690" y="106" font-family="monospace" font-size="15" fill="#f5f2ea" text-anchor="middle">TOTAL</text>
+    <text x="690" y="130" font-family="monospace" font-size="19" fill="#e5484d" text-anchor="middle">$125.50</text>
+  </g>
+  <g fill="#f5f2ea"><circle r="3"><animateMotion dur="6s" repeatCount="indefinite" path="M40 170 H760"/></circle><circle r="2"><animateMotion dur="9s" begin="-3s" repeatCount="indefinite" path="M760 24 H40"/></circle></g>
 </svg>

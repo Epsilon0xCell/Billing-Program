@@ -1,17 +1,31 @@
-![Intro banner](intro-banner.png)
+<p align="center"><img src="intro-banner.png" alt="Billing-Program introduction" width="800"></p>
+
+<p align="center"><img src="logo.png" alt="Billing-Program logo" width="200"></p>
 
 # Billing-Program
+
+**The Chalk Receipt**
+_A long receipt unrolls in white chalk on a black board, and tax and tip tally into one circled total marked once in red._
 
 A single-file interactive Python program that builds a simple receipt for
 one item: it applies tax, adds a tip, and prints the overall cost.
 
 ![Billing Program banner](assets/banner.png)
 
-![Animated scene](scene.svg)
+![The Chalk Receipt, animated blackboard scene](scene.svg)
 
 ![Heading plate](plate.svg)
 
 ![Major separator](separator-major.svg)
+
+## Contents
+
+- [Requirements](#requirements)
+- [Running it](#running-it)
+- [How the total is calculated](#how-the-total-is-calculated)
+- [Worked example (verified)](#worked-example-verified)
+- [Input errors](#input-errors)
+- [Files](#files)
 
 ## Requirements
 
